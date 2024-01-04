@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 const app = express();
 
 app.use(cors({
-  origin: ["https://topnews.onrender.com"]
+  origin: ["https://topnews-s6va.onrender.com/"]
 }));
 app.use(express.json());
 
